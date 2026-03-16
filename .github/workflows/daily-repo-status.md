@@ -1,10 +1,11 @@
----
 on:
-  schedule: daily
+  workflow_dispatch:
+
 permissions:
   contents: read
   issues: read
   pull-requests: read
+
 safe-outputs:
   create-issue:
     title-prefix: "[team-status] "
