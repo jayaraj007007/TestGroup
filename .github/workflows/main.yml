@@ -1,6 +1,6 @@
 ---
 on:
-  schedule: daily
+  push:
 permissions:
   contents: read
   issues: read
